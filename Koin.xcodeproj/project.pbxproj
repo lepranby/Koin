@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262A19DA2BEF997E0080CF65 /* KoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19D92BEF997E0080CF65 /* KoinApp.swift */; };
+		262A19DC2BEF997E0080CF65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19DB2BEF997E0080CF65 /* ContentView.swift */; };
+		262A19E02BEF99810080CF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262A19DF2BEF99810080CF65 /* Assets.xcassets */; };
+		262A19E42BEF99810080CF65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262A19E32BEF99810080CF65 /* Preview Assets.xcassets */; };
+		262A19EE2BEF9A210080CF65 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19ED2BEF9A210080CF65 /* IntroScreen.swift */; };
+		262A19F12BEF9BA80080CF65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19F02BEF9BA80080CF65 /* Constants.swift */; };
+		262A19F42BEF9F320080CF65 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19F32BEF9F320080CF65 /* Tab.swift */; };
+		262A19F62BEFA1C80080CF65 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19F52BEFA1C80080CF65 /* Category.swift */; };
+		262A19F82BEFA2250080CF65 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19F72BEFA2250080CF65 /* Transaction.swift */; };
+		262A19FA2BEFA2C30080CF65 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19F92BEFA2C30080CF65 /* TintColor.swift */; };
+		262A19FD2BEFA4190080CF65 /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19FC2BEFA4190080CF65 /* Recents.swift */; };
+		262A19FF2BEFA4210080CF65 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A19FE2BEFA4210080CF65 /* Search.swift */; };
+		262A1A012BEFA4290080CF65 /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A002BEFA4290080CF65 /* Graphs.swift */; };
+		262A1A032BEFA4330080CF65 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A022BEFA4330080CF65 /* Settings.swift */; };
+		262A1A052BEFA5B10080CF65 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A042BEFA5B10080CF65 /* ViewExtension.swift */; };
+		262A1A072BEFAD080080CF65 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A062BEFAD080080CF65 /* DateExtension.swift */; };
+		262A1A092BEFAF220080CF65 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A082BEFAF220080CF65 /* CardView.swift */; };
+		262A1A0B2BEFF34B0080CF65 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A0A2BEFF34B0080CF65 /* TransactionCardView.swift */; };
+		262A1A0D2BEFF7330080CF65 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A0C2BEFF7330080CF65 /* DateFilterView.swift */; };
+		262A1A0F2BF0930A0080CF65 /* AnimatedToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A0E2BF0930A0080CF65 /* AnimatedToggle.swift */; };
+		262A1A112BF0933A0080CF65 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A102BF0933A0080CF65 /* Haptic.swift */; };
+		262A1A142BF097140080CF65 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A132BF097140080CF65 /* LockView.swift */; };
+		262A1A162BF13B840080CF65 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A152BF13B840080CF65 /* ChartModel.swift */; };
+		262A1A182BF14CDA0080CF65 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A172BF14CDA0080CF65 /* TransactionView.swift */; };
+		262A1A1A2BF159630080CF65 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A192BF159630080CF65 /* SwipeAction.swift */; };
+		262A1A1C2BF168FE0080CF65 /* FilterTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A1A1B2BF168FE0080CF65 /* FilterTransactionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		262A19D62BEF997E0080CF65 /* Koin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		262A19D92BEF997E0080CF65 /* KoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoinApp.swift; sourceTree = "<group>"; };
+		262A19DB2BEF997E0080CF65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		262A19DF2BEF99810080CF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		262A19E12BEF99810080CF65 /* Koin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Koin.entitlements; sourceTree = "<group>"; };
+		262A19E32BEF99810080CF65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		262A19ED2BEF9A210080CF65 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		262A19F02BEF9BA80080CF65 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		262A19F32BEF9F320080CF65 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		262A19F52BEFA1C80080CF65 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		262A19F72BEFA2250080CF65 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		262A19F92BEFA2C30080CF65 /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		262A19FC2BEFA4190080CF65 /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		262A19FE2BEFA4210080CF65 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		262A1A002BEFA4290080CF65 /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		262A1A022BEFA4330080CF65 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		262A1A042BEFA5B10080CF65 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		262A1A062BEFAD080080CF65 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		262A1A082BEFAF220080CF65 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		262A1A0A2BEFF34B0080CF65 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		262A1A0C2BEFF7330080CF65 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		262A1A0E2BF0930A0080CF65 /* AnimatedToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedToggle.swift; sourceTree = "<group>"; };
+		262A1A102BF0933A0080CF65 /* Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
+		262A1A132BF097140080CF65 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		262A1A152BF13B840080CF65 /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		262A1A172BF14CDA0080CF65 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		262A1A192BF159630080CF65 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		262A1A1B2BF168FE0080CF65 /* FilterTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262A19D32BEF997E0080CF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262A19CD2BEF997E0080CF65 = {
+			isa = PBXGroup;
+			children = (
+				262A19D82BEF997E0080CF65 /* Koin */,
+				262A19D72BEF997E0080CF65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		262A19D72BEF997E0080CF65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				262A19D62BEF997E0080CF65 /* Koin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262A19D82BEF997E0080CF65 /* Koin */ = {
+			isa = PBXGroup;
+			children = (
+				262A19EA2BEF99EB0080CF65 /* App */,
+				262A19F22BEF9F290080CF65 /* Model */,
+				262A19FB2BEFA4050080CF65 /* View */,
+				262A19EB2BEF99F10080CF65 /* Root */,
+				262A1A122BF096F70080CF65 /* Biometric */,
+				262A19EF2BEF9B9B0080CF65 /* Helpers */,
+				262A19DF2BEF99810080CF65 /* Assets.xcassets */,
+				262A19E12BEF99810080CF65 /* Koin.entitlements */,
+				262A19E22BEF99810080CF65 /* Preview Content */,
+			);
+			path = Koin;
+			sourceTree = "<group>";
+		};
+		262A19E22BEF99810080CF65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				262A19E32BEF99810080CF65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		262A19EA2BEF99EB0080CF65 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				262A19D92BEF997E0080CF65 /* KoinApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		262A19EB2BEF99F10080CF65 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				262A19DB2BEF997E0080CF65 /* ContentView.swift */,
+				262A19ED2BEF9A210080CF65 /* IntroScreen.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		262A19EF2BEF9B9B0080CF65 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				262A19F02BEF9BA80080CF65 /* Constants.swift */,
+				262A1A172BF14CDA0080CF65 /* TransactionView.swift */,
+				262A1A1B2BF168FE0080CF65 /* FilterTransactionView.swift */,
+				262A1A062BEFAD080080CF65 /* DateExtension.swift */,
+				262A1A042BEFA5B10080CF65 /* ViewExtension.swift */,
+				262A1A082BEFAF220080CF65 /* CardView.swift */,
+				262A1A0A2BEFF34B0080CF65 /* TransactionCardView.swift */,
+				262A1A192BF159630080CF65 /* SwipeAction.swift */,
+				262A1A0C2BEFF7330080CF65 /* DateFilterView.swift */,
+				262A1A0E2BF0930A0080CF65 /* AnimatedToggle.swift */,
+				262A1A102BF0933A0080CF65 /* Haptic.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		262A19F22BEF9F290080CF65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				262A19F32BEF9F320080CF65 /* Tab.swift */,
+				262A1A152BF13B840080CF65 /* ChartModel.swift */,
+				262A19F52BEFA1C80080CF65 /* Category.swift */,
+				262A19F72BEFA2250080CF65 /* Transaction.swift */,
+				262A19F92BEFA2C30080CF65 /* TintColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		262A19FB2BEFA4050080CF65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				262A19FC2BEFA4190080CF65 /* Recents.swift */,
+				262A19FE2BEFA4210080CF65 /* Search.swift */,
+				262A1A002BEFA4290080CF65 /* Graphs.swift */,
+				262A1A022BEFA4330080CF65 /* Settings.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		262A1A122BF096F70080CF65 /* Biometric */ = {
+			isa = PBXGroup;
+			children = (
+				262A1A132BF097140080CF65 /* LockView.swift */,
+			);
+			path = Biometric;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		262A19D52BEF997E0080CF65 /* Koin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262A19E72BEF99810080CF65 /* Build configuration list for PBXNativeTarget "Koin" */;
+			buildPhases = (
+				262A19D22BEF997E0080CF65 /* Sources */,
+				262A19D32BEF997E0080CF65 /* Frameworks */,
+				262A19D42BEF997E0080CF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koin;
+			productName = Koin;
+			productReference = 262A19D62BEF997E0080CF65 /* Koin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		262A19CE2BEF997E0080CF65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					262A19D52BEF997E0080CF65 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 262A19D12BEF997E0080CF65 /* Build configuration list for PBXProject "Koin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 262A19CD2BEF997E0080CF65;
+			productRefGroup = 262A19D72BEF997E0080CF65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				262A19D52BEF997E0080CF65 /* Koin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		262A19D42BEF997E0080CF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262A19E42BEF99810080CF65 /* Preview Assets.xcassets in Resources */,
+				262A19E02BEF99810080CF65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		262A19D22BEF997E0080CF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262A19FA2BEFA2C30080CF65 /* TintColor.swift in Sources */,
+				262A1A072BEFAD080080CF65 /* DateExtension.swift in Sources */,
+				262A1A012BEFA4290080CF65 /* Graphs.swift in Sources */,
+				262A19FD2BEFA4190080CF65 /* Recents.swift in Sources */,
+				262A1A092BEFAF220080CF65 /* CardView.swift in Sources */,
+				262A1A1C2BF168FE0080CF65 /* FilterTransactionView.swift in Sources */,
+				262A1A0D2BEFF7330080CF65 /* DateFilterView.swift in Sources */,
+				262A19F82BEFA2250080CF65 /* Transaction.swift in Sources */,
+				262A19DC2BEF997E0080CF65 /* ContentView.swift in Sources */,
+				262A19EE2BEF9A210080CF65 /* IntroScreen.swift in Sources */,
+				262A1A032BEFA4330080CF65 /* Settings.swift in Sources */,
+				262A1A162BF13B840080CF65 /* ChartModel.swift in Sources */,
+				262A19F42BEF9F320080CF65 /* Tab.swift in Sources */,
+				262A1A182BF14CDA0080CF65 /* TransactionView.swift in Sources */,
+				262A19DA2BEF997E0080CF65 /* KoinApp.swift in Sources */,
+				262A1A0F2BF0930A0080CF65 /* AnimatedToggle.swift in Sources */,
+				262A1A142BF097140080CF65 /* LockView.swift in Sources */,
+				262A19FF2BEFA4210080CF65 /* Search.swift in Sources */,
+				262A19F12BEF9BA80080CF65 /* Constants.swift in Sources */,
+				262A1A112BF0933A0080CF65 /* Haptic.swift in Sources */,
+				262A19F62BEFA1C80080CF65 /* Category.swift in Sources */,
+				262A1A1A2BF159630080CF65 /* SwipeAction.swift in Sources */,
+				262A1A052BEFA5B10080CF65 /* ViewExtension.swift in Sources */,
+				262A1A0B2BEFF34B0080CF65 /* TransactionCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		262A19E52BEF99810080CF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		262A19E62BEF99810080CF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		262A19E82BEF99810080CF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Koin/Koin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Koin/Preview Content\"";
+				DEVELOPMENT_TEAM = MTRFQL94MM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksejShapran.Koin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		262A19E92BEF99810080CF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Koin/Koin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Koin/Preview Content\"";
+				DEVELOPMENT_TEAM = MTRFQL94MM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksejShapran.Koin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		262A19D12BEF997E0080CF65 /* Build configuration list for PBXProject "Koin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262A19E52BEF99810080CF65 /* Debug */,
+				262A19E62BEF99810080CF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262A19E72BEF99810080CF65 /* Build configuration list for PBXNativeTarget "Koin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262A19E82BEF99810080CF65 /* Debug */,
+				262A19E92BEF99810080CF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 262A19CE2BEF997E0080CF65 /* Project object */;
+}
